@@ -1,0 +1,37 @@
+root = true
+
+[*]
+# end_of_line = crlf # eol windows
+end_of_line = lf # eol macos / linux
+
+insert_final_newline = true
+trim_trailing_whitespace = true
+charset = utf-8
+
+[*.txt]
+indent_style = tab
+indent_size = 4
+
+[*.{sh,zsh,bash}] # macos / linux
+end_of_line = lf
+
+[*.{ps1,psm1,bat,cmd}] # windows
+end_of_line = crlf
+
+[*.{htm,html,xml,svg}] # markup
+indent_size = 4
+tab_width = 4
+indent_style = tab
+
+[*.{json,js,ts,jsx,tsx,vue,svelte,lua,rs,zig,php,py}] # code
+indent_size = 4
+tab_width = 4
+indent_style = tab
+
+[package.json,package-lock.json] # node
+indent_size = 2
+indent_style = space
+
+[*.{css,scss,sass,less}] # css
+indent_size = 2
+indent_style = space
