@@ -23,7 +23,7 @@ indent_size = 4
 tab_width = 4
 indent_style = tab
 
-[*.{json,js,ts,jsx,tsx,vue,svelte,lua,rs,zig,php,py}] # code
+[*.{json,js,ts,jsx,tsx,vue,svelte,lua,go,rs,zig,php,py,swift}] # code
 indent_size = 4
 tab_width = 4
 indent_style = tab
